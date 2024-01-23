@@ -1,0 +1,33 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Hello, this is a card with location information!",
+                "weight": "bold",
+                "size": "xl"
+            },
+            {
+                "type": "text",
+                "text": "You can customize this card as per your requirements."
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "uri",
+                    "label": "View Location",
+                    "uri": "https://www.google.com/maps?q=22.67593156810299,120.4782834137765"
+                }
+            }
+        ]
+    }
+}
